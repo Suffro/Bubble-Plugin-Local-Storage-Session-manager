@@ -1,0 +1,35 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 35,
+        "width": 35
+    },
+    "display": "Local/Session Storage",
+    "events": {
+    },
+    "fields": {
+    },
+    "icon": "ion-cube",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "AAb": {
+            "caption": "Local storage value",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "local_storage_value",
+            "value": "text"
+        },
+        "AAd": {
+            "caption": "Session storage value",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "session_storage_value",
+            "value": "text"
+        }
+    }
+}

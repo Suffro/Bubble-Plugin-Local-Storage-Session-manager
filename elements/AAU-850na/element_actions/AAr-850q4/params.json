@@ -1,0 +1,20 @@
+{
+    "caption": "Remove from Session Storage",
+    "doc": "",
+    "fields": {
+        "AAt": {
+            "caption": "Key",
+            "doc": "Key to identify the saved data (string)",
+            "editor": "DynamicValue",
+            "name": "key",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAz": {
+            "caption": "Remove from Session storage",
+            "editor": "Label",
+            "name": "remove_from_session_storage",
+            "rank": 0
+        }
+    }
+}

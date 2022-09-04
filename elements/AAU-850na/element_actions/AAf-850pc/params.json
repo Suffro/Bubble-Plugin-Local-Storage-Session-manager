@@ -1,0 +1,27 @@
+{
+    "caption": "Write to Session Storage",
+    "fields": {
+        "AAg": {
+            "caption": "Key",
+            "doc": "Key to identify the saved data (string)",
+            "editor": "DynamicValue",
+            "name": "key",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAh": {
+            "caption": "Value",
+            "doc": "The data to save (string)",
+            "editor": "DynamicValue",
+            "name": "value",
+            "rank": 2,
+            "value": "text"
+        },
+        "ABD": {
+            "caption": "Write to Session Storage",
+            "editor": "Label",
+            "name": "write_to_session_storage",
+            "rank": 0
+        }
+    }
+}

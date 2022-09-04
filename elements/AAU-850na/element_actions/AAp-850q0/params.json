@@ -1,0 +1,19 @@
+{
+    "caption": "Read from Local Storage",
+    "fields": {
+        "AAq": {
+            "caption": "Key",
+            "doc": "Key to identify the saved data (string)",
+            "editor": "DynamicValue",
+            "name": "key",
+            "rank": 1,
+            "value": "text"
+        },
+        "ABA": {
+            "caption": "Read from Local storage",
+            "editor": "Label",
+            "name": "read_from_local_storage",
+            "rank": 0
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "caption": "Remove from Local Storage",
+    "fields": {
+        "AAu": {
+            "caption": "Key",
+            "doc": "Key to identify the saved data (string)",
+            "editor": "DynamicValue",
+            "name": "key",
+            "rank": 1,
+            "value": "text"
+        },
+        "ABE": {
+            "caption": "Remove from Local Storage",
+            "editor": "Label",
+            "name": "remove_from_local_storage",
+            "rank": 0
+        }
+    }
+}

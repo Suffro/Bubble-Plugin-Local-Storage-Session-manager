@@ -1,0 +1,19 @@
+{
+    "caption": "Read from Session Storage",
+    "fields": {
+        "AAo": {
+            "caption": "Key",
+            "doc": "Key to identify the saved data (string)",
+            "editor": "DynamicValue",
+            "name": "key",
+            "rank": 1,
+            "value": "text"
+        },
+        "ABB": {
+            "caption": "Read from Session storage",
+            "editor": "Label",
+            "name": "read_from_session_storage",
+            "rank": 0
+        }
+    }
+}

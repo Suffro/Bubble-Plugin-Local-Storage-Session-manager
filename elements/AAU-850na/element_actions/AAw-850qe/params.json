@@ -1,0 +1,17 @@
+{
+    "caption": "Clear Local Storage",
+    "fields": {
+        "ABF": {
+            "caption": "Clear Local Storage",
+            "editor": "Label",
+            "name": "clear_local_storage",
+            "rank": 0
+        },
+        "ABH": {
+            "caption": "USE THIS CAREFULLY",
+            "editor": "Label",
+            "name": "use_this_carefully",
+            "rank": 1
+        }
+    }
+}

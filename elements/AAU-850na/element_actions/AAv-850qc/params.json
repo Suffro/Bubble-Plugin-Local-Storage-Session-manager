@@ -1,0 +1,17 @@
+{
+    "caption": "Clear Session Storage",
+    "fields": {
+        "AAx": {
+            "caption": "Session storage",
+            "editor": "Label",
+            "name": "session_storage",
+            "rank": 0
+        },
+        "ABG": {
+            "caption": "USE THIS CAREFULLY",
+            "editor": "Label",
+            "name": "use_this_carefully",
+            "rank": 1
+        }
+    }
+}

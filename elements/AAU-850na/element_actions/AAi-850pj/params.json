@@ -1,0 +1,27 @@
+{
+    "caption": "Write to Local Storage",
+    "fields": {
+        "AAj": {
+            "caption": "Key",
+            "doc": "Key to identify the saved data (string)",
+            "editor": "DynamicValue",
+            "name": "key",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAk": {
+            "caption": "Value",
+            "doc": "The data to save (string)",
+            "editor": "DynamicValue",
+            "name": "value",
+            "rank": 2,
+            "value": "text"
+        },
+        "ABC": {
+            "caption": "Write to Local Storage",
+            "editor": "Label",
+            "name": "write_to_local_storage",
+            "rank": 0
+        }
+    }
+}
