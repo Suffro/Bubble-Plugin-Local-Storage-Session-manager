@@ -1,16 +1,11 @@
 function(instance, properties, context) {
-	try{
-        
-      //Load any data 
+    //Load any data 
+    let key = properties.key;
+    let value = properties.value;
 
-        let key = properties.key;
-        let value = properties.value;
-
-      //Do the operation
-
-        localStorage.setItem(key, value);
-        
-    } catch (error) {
-        console.error(error);
-    }
+    //Do the operation
+    localStorage.setItem(key, value);
+    
+    // Trigger event
+    instance.triggerEvent('local_storage_write');
 }

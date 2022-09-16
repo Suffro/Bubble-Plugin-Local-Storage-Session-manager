@@ -6,5 +6,5 @@
     "description": "Browser local and session storage allows you to access a Storage object and read or write data in it.\n\nLocal storage is similar to Session storage, except that while Local storage data has no expiration time, Session storage data gets cleared when the page session ends — that is, when the page is closed.\n\nNOTE: Local storage data for a document loaded in a \"private browsing\" or \"incognito\" session is cleared when the last \"private\" tab is closed.\n\nReference:\n\n- https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage\n\n- https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage",
     "image": "//s3.amazonaws.com/appforest_uf/f1662304410968x341131896384225800/database.png",
     "license": "open_source",
-    "name": "Local Storage/Session manager"
+    "name": "Local & Session Storage Manager"
 }

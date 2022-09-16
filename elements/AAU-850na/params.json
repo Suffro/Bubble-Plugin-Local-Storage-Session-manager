@@ -7,8 +7,38 @@
     },
     "display": "Local/Session Storage",
     "events": {
-    },
-    "fields": {
+        "ABJ": {
+            "caption": "Local storage read",
+            "name": "local_storage_read"
+        },
+        "ABK": {
+            "caption": "Session storage read",
+            "name": "session_storage_read"
+        },
+        "ABL": {
+            "caption": "Local storage remove",
+            "name": "local_storage_remove"
+        },
+        "ABM": {
+            "caption": "Session storage remove",
+            "name": "session_storage_remove"
+        },
+        "ABN": {
+            "caption": "Local storage clear",
+            "name": "local_storage_clear"
+        },
+        "ABO": {
+            "caption": "Session storage clear",
+            "name": "session_storage_clear"
+        },
+        "ABP": {
+            "caption": "Local storage write",
+            "name": "local_storage_write"
+        },
+        "ABQ": {
+            "caption": "Session storage write",
+            "name": "session_storage_write"
+        }
     },
     "icon": "ion-cube",
     "property_applications": {

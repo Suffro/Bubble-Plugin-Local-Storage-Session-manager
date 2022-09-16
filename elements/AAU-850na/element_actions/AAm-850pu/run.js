@@ -1,15 +1,11 @@
 function(instance, properties, context) {
-	try{
-        
-      //Load any data 
+ 
+    //Load any data 
+    let key = properties.key;
 
-        let key = properties.key;
-
-      //Do the operation
-        
-        instance.publishState('local_storage_value', sessionStorage.getItem(key));
-        
-    } catch (error) {
-        console.error(error);
-    }
+    //Do the operation
+    instance.publishState('session_storage_value', sessionStorage.getItem(key));
+    
+    // Trigger event
+    instance.triggerEvent('session_storage_read');
 }

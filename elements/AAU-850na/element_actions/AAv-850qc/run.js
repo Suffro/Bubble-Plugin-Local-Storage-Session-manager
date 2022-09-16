@@ -1,12 +1,7 @@
 function(instance, properties, context) {
-
-
-  //Load any data 
-
-
-
-  //Do the operation
-	
+    //Do the operation
     sessionStorage.clear();
-
+    
+    // Trigger event
+    instance.triggerEvent('session_storage_clear');
 }

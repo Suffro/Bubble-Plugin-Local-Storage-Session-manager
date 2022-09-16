@@ -1,12 +1,7 @@
 function(instance, properties, context) {
-
-
-  //Load any data 
-
-
-
-  //Do the operation
-
+  	//Do the operation
 	localStorage.clear();
 
+    // Trigger event
+    instance.triggerEvent('local_storage_clear');
 }
